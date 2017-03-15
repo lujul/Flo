@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1741C4211E716BFF00EDC31C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741C4201E716BFF00EDC31C /* AppDelegate.swift */; };
+		1741C4231E716BFF00EDC31C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741C4221E716BFF00EDC31C /* ViewController.swift */; };
+		1741C4261E716BFF00EDC31C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1741C4241E716BFF00EDC31C /* Main.storyboard */; };
+		1741C4281E716BFF00EDC31C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1741C4271E716BFF00EDC31C /* Assets.xcassets */; };
+		1741C42B1E716BFF00EDC31C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1741C4291E716BFF00EDC31C /* LaunchScreen.storyboard */; };
+		1741C4361E716BFF00EDC31C /* FlorenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741C4351E716BFF00EDC31C /* FlorenceTests.swift */; };
+		1741C4411E716BFF00EDC31C /* FlorenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741C4401E716BFF00EDC31C /* FlorenceUITests.swift */; };
+		175AC7961E76E12B00D5A48C /* Counter-View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175AC7951E76E12B00D5A48C /* Counter-View.swift */; };
+		17B9E1711E71B97C0007A4F2 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B9E1701E71B97C0007A4F2 /* PushButtonView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1741C4321E716BFF00EDC31C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1741C4151E716BFE00EDC31C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1741C41C1E716BFF00EDC31C;
+			remoteInfo = Florence;
+		};
+		1741C43D1E716BFF00EDC31C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1741C4151E716BFE00EDC31C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1741C41C1E716BFF00EDC31C;
+			remoteInfo = Florence;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1741C41D1E716BFF00EDC31C /* Florence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Florence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1741C4201E716BFF00EDC31C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1741C4221E716BFF00EDC31C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1741C4251E716BFF00EDC31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1741C4271E716BFF00EDC31C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1741C42A1E716BFF00EDC31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1741C42C1E716BFF00EDC31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1741C4311E716BFF00EDC31C /* FlorenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlorenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1741C4351E716BFF00EDC31C /* FlorenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlorenceTests.swift; sourceTree = "<group>"; };
+		1741C4371E716BFF00EDC31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1741C43C1E716BFF00EDC31C /* FlorenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlorenceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1741C4401E716BFF00EDC31C /* FlorenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlorenceUITests.swift; sourceTree = "<group>"; };
+		1741C4421E716BFF00EDC31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		175AC7951E76E12B00D5A48C /* Counter-View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Counter-View.swift"; sourceTree = "<group>"; };
+		17B9E1701E71B97C0007A4F2 /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1741C41A1E716BFF00EDC31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1741C42E1E716BFF00EDC31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1741C4391E716BFF00EDC31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1741C4141E716BFE00EDC31C = {
+			isa = PBXGroup;
+			children = (
+				1741C41F1E716BFF00EDC31C /* Florence */,
+				1741C4341E716BFF00EDC31C /* FlorenceTests */,
+				1741C43F1E716BFF00EDC31C /* FlorenceUITests */,
+				1741C41E1E716BFF00EDC31C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1741C41E1E716BFF00EDC31C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1741C41D1E716BFF00EDC31C /* Florence.app */,
+				1741C4311E716BFF00EDC31C /* FlorenceTests.xctest */,
+				1741C43C1E716BFF00EDC31C /* FlorenceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1741C41F1E716BFF00EDC31C /* Florence */ = {
+			isa = PBXGroup;
+			children = (
+				1741C4201E716BFF00EDC31C /* AppDelegate.swift */,
+				1741C4221E716BFF00EDC31C /* ViewController.swift */,
+				1741C4241E716BFF00EDC31C /* Main.storyboard */,
+				1741C4271E716BFF00EDC31C /* Assets.xcassets */,
+				1741C4291E716BFF00EDC31C /* LaunchScreen.storyboard */,
+				1741C42C1E716BFF00EDC31C /* Info.plist */,
+				17B9E1701E71B97C0007A4F2 /* PushButtonView.swift */,
+				175AC7951E76E12B00D5A48C /* Counter-View.swift */,
+			);
+			path = Florence;
+			sourceTree = "<group>";
+		};
+		1741C4341E716BFF00EDC31C /* FlorenceTests */ = {
+			isa = PBXGroup;
+			children = (
+				1741C4351E716BFF00EDC31C /* FlorenceTests.swift */,
+				1741C4371E716BFF00EDC31C /* Info.plist */,
+			);
+			path = FlorenceTests;
+			sourceTree = "<group>";
+		};
+		1741C43F1E716BFF00EDC31C /* FlorenceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1741C4401E716BFF00EDC31C /* FlorenceUITests.swift */,
+				1741C4421E716BFF00EDC31C /* Info.plist */,
+			);
+			path = FlorenceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1741C41C1E716BFF00EDC31C /* Florence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1741C4451E716BFF00EDC31C /* Build configuration list for PBXNativeTarget "Florence" */;
+			buildPhases = (
+				1741C4191E716BFF00EDC31C /* Sources */,
+				1741C41A1E716BFF00EDC31C /* Frameworks */,
+				1741C41B1E716BFF00EDC31C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Florence;
+			productName = Florence;
+			productReference = 1741C41D1E716BFF00EDC31C /* Florence.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1741C4301E716BFF00EDC31C /* FlorenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1741C4481E716BFF00EDC31C /* Build configuration list for PBXNativeTarget "FlorenceTests" */;
+			buildPhases = (
+				1741C42D1E716BFF00EDC31C /* Sources */,
+				1741C42E1E716BFF00EDC31C /* Frameworks */,
+				1741C42F1E716BFF00EDC31C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1741C4331E716BFF00EDC31C /* PBXTargetDependency */,
+			);
+			name = FlorenceTests;
+			productName = FlorenceTests;
+			productReference = 1741C4311E716BFF00EDC31C /* FlorenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1741C43B1E716BFF00EDC31C /* FlorenceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1741C44B1E716BFF00EDC31C /* Build configuration list for PBXNativeTarget "FlorenceUITests" */;
+			buildPhases = (
+				1741C4381E716BFF00EDC31C /* Sources */,
+				1741C4391E716BFF00EDC31C /* Frameworks */,
+				1741C43A1E716BFF00EDC31C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1741C43E1E716BFF00EDC31C /* PBXTargetDependency */,
+			);
+			name = FlorenceUITests;
+			productName = FlorenceUITests;
+			productReference = 1741C43C1E716BFF00EDC31C /* FlorenceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1741C4151E716BFE00EDC31C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = lujul;
+				TargetAttributes = {
+					1741C41C1E716BFF00EDC31C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G6Z98T43PA;
+						ProvisioningStyle = Automatic;
+					};
+					1741C4301E716BFF00EDC31C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G6Z98T43PA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1741C41C1E716BFF00EDC31C;
+					};
+					1741C43B1E716BFF00EDC31C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G6Z98T43PA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1741C41C1E716BFF00EDC31C;
+					};
+				};
+			};
+			buildConfigurationList = 1741C4181E716BFE00EDC31C /* Build configuration list for PBXProject "Florence" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1741C4141E716BFE00EDC31C;
+			productRefGroup = 1741C41E1E716BFF00EDC31C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1741C41C1E716BFF00EDC31C /* Florence */,
+				1741C4301E716BFF00EDC31C /* FlorenceTests */,
+				1741C43B1E716BFF00EDC31C /* FlorenceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1741C41B1E716BFF00EDC31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1741C42B1E716BFF00EDC31C /* LaunchScreen.storyboard in Resources */,
+				1741C4281E716BFF00EDC31C /* Assets.xcassets in Resources */,
+				1741C4261E716BFF00EDC31C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1741C42F1E716BFF00EDC31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1741C43A1E716BFF00EDC31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1741C4191E716BFF00EDC31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1741C4231E716BFF00EDC31C /* ViewController.swift in Sources */,
+				175AC7961E76E12B00D5A48C /* Counter-View.swift in Sources */,
+				17B9E1711E71B97C0007A4F2 /* PushButtonView.swift in Sources */,
+				1741C4211E716BFF00EDC31C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1741C42D1E716BFF00EDC31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1741C4361E716BFF00EDC31C /* FlorenceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1741C4381E716BFF00EDC31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1741C4411E716BFF00EDC31C /* FlorenceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1741C4331E716BFF00EDC31C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1741C41C1E716BFF00EDC31C /* Florence */;
+			targetProxy = 1741C4321E716BFF00EDC31C /* PBXContainerItemProxy */;
+		};
+		1741C43E1E716BFF00EDC31C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1741C41C1E716BFF00EDC31C /* Florence */;
+			targetProxy = 1741C43D1E716BFF00EDC31C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1741C4241E716BFF00EDC31C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1741C4251E716BFF00EDC31C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1741C4291E716BFF00EDC31C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1741C42A1E716BFF00EDC31C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1741C4431E716BFF00EDC31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1741C4441E716BFF00EDC31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1741C4461E716BFF00EDC31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G6Z98T43PA;
+				INFOPLIST_FILE = Florence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujul.Florence.Florence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1741C4471E716BFF00EDC31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G6Z98T43PA;
+				INFOPLIST_FILE = Florence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujul.Florence.Florence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1741C4491E716BFF00EDC31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G6Z98T43PA;
+				INFOPLIST_FILE = FlorenceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujul.Florence.FlorenceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Florence.app/Florence";
+			};
+			name = Debug;
+		};
+		1741C44A1E716BFF00EDC31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G6Z98T43PA;
+				INFOPLIST_FILE = FlorenceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujul.Florence.FlorenceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Florence.app/Florence";
+			};
+			name = Release;
+		};
+		1741C44C1E716BFF00EDC31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G6Z98T43PA;
+				INFOPLIST_FILE = FlorenceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujul.Florence.FlorenceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Florence;
+			};
+			name = Debug;
+		};
+		1741C44D1E716BFF00EDC31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G6Z98T43PA;
+				INFOPLIST_FILE = FlorenceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lujul.Florence.FlorenceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Florence;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1741C4181E716BFE00EDC31C /* Build configuration list for PBXProject "Florence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1741C4431E716BFF00EDC31C /* Debug */,
+				1741C4441E716BFF00EDC31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1741C4451E716BFF00EDC31C /* Build configuration list for PBXNativeTarget "Florence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1741C4461E716BFF00EDC31C /* Debug */,
+				1741C4471E716BFF00EDC31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1741C4481E716BFF00EDC31C /* Build configuration list for PBXNativeTarget "FlorenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1741C4491E716BFF00EDC31C /* Debug */,
+				1741C44A1E716BFF00EDC31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1741C44B1E716BFF00EDC31C /* Build configuration list for PBXNativeTarget "FlorenceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1741C44C1E716BFF00EDC31C /* Debug */,
+				1741C44D1E716BFF00EDC31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1741C4151E716BFE00EDC31C /* Project object */;
+}
