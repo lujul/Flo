@@ -15,8 +15,10 @@
 		1741C4361E716BFF00EDC31C /* FlorenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741C4351E716BFF00EDC31C /* FlorenceTests.swift */; };
 		1741C4411E716BFF00EDC31C /* FlorenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741C4401E716BFF00EDC31C /* FlorenceUITests.swift */; };
 		175AC7961E76E12B00D5A48C /* Counter-View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175AC7951E76E12B00D5A48C /* Counter-View.swift */; };
+		1768D5F61E8557CB00C8BB18 /* MedalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768D5F51E8557CB00C8BB18 /* MedalView.swift */; };
 		17A13A6E1E7A9424004A4E13 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A13A6D1E7A9424004A4E13 /* GraphView.swift */; };
 		17B9E1711E71B97C0007A4F2 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B9E1701E71B97C0007A4F2 /* PushButtonView.swift */; };
+		17BF33201E83DE970036B72C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BF331F1E83DE970036B72C /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +53,10 @@
 		1741C4401E716BFF00EDC31C /* FlorenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlorenceUITests.swift; sourceTree = "<group>"; };
 		1741C4421E716BFF00EDC31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		175AC7951E76E12B00D5A48C /* Counter-View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Counter-View.swift"; sourceTree = "<group>"; };
+		1768D5F51E8557CB00C8BB18 /* MedalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedalView.swift; sourceTree = "<group>"; };
 		17A13A6D1E7A9424004A4E13 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		17B9E1701E71B97C0007A4F2 /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
+		17BF331F1E83DE970036B72C /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				1741C4201E716BFF00EDC31C /* AppDelegate.swift */,
+				17BF331F1E83DE970036B72C /* BackgroundView.swift */,
+				1768D5F51E8557CB00C8BB18 /* MedalView.swift */,
 				1741C4221E716BFF00EDC31C /* ViewController.swift */,
 				1741C4241E716BFF00EDC31C /* Main.storyboard */,
 				1741C4271E716BFF00EDC31C /* Assets.xcassets */,
@@ -273,9 +279,11 @@
 			files = (
 				17A13A6E1E7A9424004A4E13 /* GraphView.swift in Sources */,
 				1741C4231E716BFF00EDC31C /* ViewController.swift in Sources */,
+				1768D5F61E8557CB00C8BB18 /* MedalView.swift in Sources */,
 				175AC7961E76E12B00D5A48C /* Counter-View.swift in Sources */,
 				17B9E1711E71B97C0007A4F2 /* PushButtonView.swift in Sources */,
 				1741C4211E716BFF00EDC31C /* AppDelegate.swift in Sources */,
+				17BF33201E83DE970036B72C /* BackgroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
